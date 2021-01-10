@@ -6,8 +6,8 @@ import { EditTodo } from './components/EditTodo';
 function App() {
 	return (
 		<div>
-			<nav className='navbar bg-light navbar-expand-lg navbar-light'>
-				<ul className='navbar-nav mr-auto px-5'>
+			<nav className='navbar navbar-expand navbar-dark bg-dark'>
+				<ul className='navbar-nav px-5'>
 					<li className='nav-item'>
 						<Link to='/' className='nav-link active'>
 							Todos
